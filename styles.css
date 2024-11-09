@@ -1,0 +1,183 @@
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 5vw;
+}
+
+header {
+    padding: 1vw;
+    background-color: #130d00;
+    color:white;
+    font-weight: 800;
+    font-size: 100%;
+    text-align: center;
+}
+
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    overflow: hidden;
+}
+
+nav li {
+    margin-left:15px;
+    
+    display: inline-block;
+    
+    
+}
+
+nav a {
+    padding: 10px;
+    border-radius: 10px;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    
+}
+
+nav li:hover {
+    color:black;
+    background-color: rgb(119, 87, 46);
+}
+
+.active {
+    color:black;
+    background-color: rgb(119, 87, 46);
+}
+
+nav a:hover {
+    color:black;
+}
+
+
+footer {
+    margin-top: 10px;
+    background-color: #130d00;
+    text-align: center;
+    padding: 10px;
+    color:white;
+}
+
+
+div {
+    margin-top: 10px;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: rgba(39, 27, 0, 0.582);
+    text-align: center;
+    color: rgb(255, 255, 255);
+    line-height: 27px;
+    
+}
+
+
+div p{
+    font-size: 100%;
+}
+
+.profile-pic{
+    border-radius: 50%;
+    width: 20%;
+    height: 20%;
+    opacity: 95%;
+}
+
+.big-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.small-list {
+    text-align: left;
+    width:75%;
+    font-size: 120%;
+}
+
+.list-item {
+    width:20%;
+    padding:20px;
+    margin:2px;
+}
+
+.project-item {
+    padding:20px;
+    border-color: white;
+    border-width: 5px;
+    border-radius: 0%;
+    width:50%;
+}
+
+.project-item img{
+    width: 90%;
+    margin: 10px;
+}
+
+.project-item:hover{
+    width: 100%;
+}
+
+
+.project-item a {
+    border-radius: 20px;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+}
+
+.project-item a:hover {
+    color:black;
+    background-color: rgb(119, 87, 46);
+}
+
+.progress-bar {
+    height: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.skill-bar {
+    text-align: left;
+    margin-top: 5px;
+    width:70%;
+    padding-top: 5px;
+}
+
+.skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Form {
+    margin-left:20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+}
+
+.Form input, textarea{
+    text-align: center;
+    width: 100%;
+}
+
+.goals {
+    text-align: center;
+    font-size: large;
+}
+
+.goals li {
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.goals li:hover {
+    background-color: black;
+}
